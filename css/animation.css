@@ -53,6 +53,11 @@
     transform: rotate(-45deg) translate(0, 0);
   }
 }
+@media screen and (max-width: 768px){
+  .scrollDown {
+    bottom:10%;
+  }
+}
   
 /* --------------------
 * first-view-copy_fadeIn
