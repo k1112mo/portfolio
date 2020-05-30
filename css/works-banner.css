@@ -319,6 +319,8 @@
     }
     .works__text-item{
         margin-bottom: 20px;
+	padding-left: 0.9em;
+        text-indent: -0.9em;
     }
     .contents__title{
         max-width: 130px;
