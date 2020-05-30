@@ -1,0 +1,97 @@
+/* --------------
+*   fv-scroll
+---------------- */
+
+.fv{
+    position: relative;
+}
+.scrollDown {
+  font-size: 1.3rem;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+.scrollDown>span{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+  border-left: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 3s infinite;
+  animation: sdb 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+  
+/* --------------------
+* first-view-copy_fadeIn
+---------------------- */
+.headline{
+  animation: SlideIn 1.6s;
+}
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;/*初期状態では透明に*/
+    transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+/* --------------
+* concept-fadeIn
+---------------- */
+
+/* 画面外にいる状態 */
+.fadein{
+  opacity:0.1;
+  transform: translate(0,50px);
+  transition: 1s;
+}
+
+/* 画面内に入った状態 */
+
+.fadein.scrollin{
+  opacity:1;
+  transform:translate(0,0);
+  transition: 1s;
+}
+
+
+  
