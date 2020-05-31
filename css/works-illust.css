@@ -191,6 +191,9 @@
         display: block;
         margin: 30px 0 30px;
     }
+　　.rough-drawing{
+        margin: 0 auto;
+    }
     .rough-drawing:first-of-type{
         margin-bottom: 30px;
     }
