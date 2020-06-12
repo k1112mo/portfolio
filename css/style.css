@@ -742,10 +742,14 @@ a{
     margin-bottom: 30px;
 }
 .about__list-title{
-    font-size:1.6rem;
+    font-size:1.8rem;
     line-height:1;
     margin-bottom: 20px;
 }
+.about__list-title::before{
+    width:28px;
+    height:33px;
+}	
 .about__button{
     margin: 0 auto;
 }
@@ -766,13 +770,13 @@ a{
 	margin-bottom:25px;
 }
 .works__img-web::before{
-	width: 45px;
+	width: 42px;
 }
 .works__img-banner::before{
-	width: 60px;
+	width: 51px;
 }
 .works__img-card::before{
-    width: 45px;
+    width: 38px;
 }
 .works__img-card::before{
     margin-top:0;
