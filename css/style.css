@@ -226,9 +226,9 @@ a{
 }
 .about__list-title{
 	margin-bottom: 15px;
-    font-size: 1.7rem;
+    font-size: 2rem;
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
 }
 .about__list-title1{
 	position: relative;
@@ -237,8 +237,8 @@ a{
 .about__list-title1::before{
 	content:"";
 	display: inline-block;
-	width: 25px;
-	height: 30px;
+	width: 30px;
+	height: 35px;
 	margin-right: 5px;
 	background-image: url("../img_sp/point-1_sp.png");
 	background-repeat: no-repeat;
@@ -255,8 +255,8 @@ a{
 .about__list-title2::before{
 	content:"";
 	display: inline-block;
-	width: 25px;
-	height: 30px;
+	width: 30px;
+	height: 35px;
 	margin-right: 5px;
 	background-image: url("../img_sp/point-2_sp.png");
 	background-repeat: no-repeat;
@@ -271,8 +271,8 @@ a{
 	content:"";
 	display: inline-block;
 	margin-right: 5px;
-	width: 25px;
-	height: 30px;
+	width: 30px;
+	height: 35px;
 	background-image: url("../img_sp/point-3_sp.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -329,12 +329,13 @@ a{
 	position:relative;
 }
 .works__img-web::before{
-	content:"web";
-	position: absolute;
+    content:"web";
+    font-size: 1.3rem;
+    position: absolute;
 	top: -11px;
 	left: 10px;
-	width: 48px;
-    height: 28px;
+	width: 42px;
+    height: 23px;
     box-sizing: border-box;
 	padding: 0px 5px 5px 5px; 
 	border: 1px solid #333333;
@@ -346,13 +347,14 @@ a{
 	position:relative;
 }
 .works__img-banner::before{
-	content:"バナー";
+    content:"バナー";
+    font-size: 1.1rem;
 	position: absolute;
 	top: -11px;
 	left: 10px;
-	width: 68px;
-    height: 28px;
-    padding: 0 5px 5px 5px;   
+	width: 51px;
+    height: 23px;
+    padding: 2px 5px 5px 5px;   
     box-sizing: border-box; 
 	border: 1px solid #333333;
 	background: #ffffff;
@@ -363,20 +365,22 @@ a{
 	position:relative;
 }
 .works__img-card::before{
-	content:"名刺";
+    content:"名刺";
+    font-size: 1.1rem;
 	position: absolute;
 	top: -11px;
 	left: 10px;
-	width: 48px;
-    height: 28px;
+	width: 39px;
+    height: 23px;
     box-sizing: border-box;
-	padding: 0 5px 5px 5px;
+	padding: 2px 5px 5px 5px;
 	border: 1px solid #333333;
 	background: #ffffff;
 	z-index: 1;
 }	
 .works__img-illust{
     margin-bottom:20px;
+    font-size: 1.1rem;
 	position:relative;
 }
 .works__img-illust::before{
@@ -384,9 +388,9 @@ a{
 	position: absolute;
 	top: -11px;
 	left: 10px;
-	width: 84px;
-    height: 28px;
-    padding: 0 5px 5px 5px;   
+	width: 64px;
+    height: 23px;
+    padding: 2px 5px 5px 5px;   
     box-sizing: border-box; 
 	border: 1px solid #333333;
 	background: #ffffff;
@@ -583,9 +587,7 @@ a{
     width: 58px;
 }
 /*-----------------------
-
       menu
-
 -------------------------*/
  #menu{
 	display :none;
@@ -633,11 +635,9 @@ a{
     display: block;
 }
 /*-----------------------
-
     menuButton
-
 -------------------------*/
-.menuButton{
+/* .menuButton{
 	display : flex ;
 	justify-content: center;
 	align-items: center;
@@ -686,7 +686,7 @@ a{
 ---------------- */
 .main__copy{
     width: 300px;
-}
+} 
 /* --------------
 *   concept
 ---------------- */
