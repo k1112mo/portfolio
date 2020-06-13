@@ -241,8 +241,8 @@
 * works-btn    
 ---------------- */
 .button__container{
-    margin-top: 80px;
-    margin-bottom: 0;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
 .button2{
 	position : relative;
@@ -256,11 +256,6 @@
 	border: 1px solid #333333;
 	transition : .6s;
 }
-.button2:hover{
-    background-color: #333333;
-    color:#FFF;
-}
-
 .button2::before,
 .button2::after{
 	content:"";
@@ -282,13 +277,13 @@
 }
 .button2:hover::before{
     width: 60px;
-    background-color: #fff;
-	transform:translate(-42px,0);
+    background-color: #333333;
+	transform:translate(-40px,0);
 	transition: .6s;
 }
 .button2:hover::after{
-    background-color: #fff;
-	transform:translate(-42px,0);
+    background-color: #333333;
+	transform:translate(-40px,0);
 	transition: .6s;
 }
 @media screen and (max-width: 768px){
