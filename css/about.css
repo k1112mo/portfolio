@@ -29,7 +29,7 @@
     font-family: 'Josefin Sans', sans-serif;
     line-height:1;
     font-size:2.6rem;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0 auto;
     box-sizing: border-box;
     padding-bottom: 80px;
@@ -134,13 +134,19 @@
 }
 .skills__coding-icon{
     margin-right: 53px;
-    width: 42px;
+    width: 44px;
 }
 .coding__icon-js>img{
-    width: 51px;
+    width: 48px;
+}
+.coding__icon-js{
+    padding-top:5px;
+}
+.coding__icon-jquery{
+    padding-top:18px;
 }
 .coding__icon-jquery>img{
-    width: 116px;
+    width: 108px;
 }
 .skills__software-list,
 .skills__coding-list{
@@ -227,9 +233,12 @@
     background: #e6d227;
     border-radius: 50%;
 }
-.career__text>span,
-.career__text-last>span{
+.career__text-weight{
     font-weight: 600;
+}
+.line{
+    background-color:rgba(230,210,39,0.4);
+    
 }
 /* --------------
 *  vision
@@ -240,7 +249,7 @@
     background-size: cover;
 }
 .vision__wrapper{
-    max-width: 740px;
+    max-width: 750px;
     margin: 0 auto;
     margin-bottom:70px;
 }
@@ -268,7 +277,7 @@
 }
 .vision__text{
     color: #333333;
-    max-width: 680px;
+    max-width: 650px;
     margin: 0 auto;
 }
 /* --------------
@@ -381,20 +390,23 @@
     max-width: 107px;
 }
 .skills__software-icon>img{
-    width: 36px;
+    width: 45px;
 }
 .skills__software-icon,
 .skills__coding-icon{
     margin-right: 0;
 }
 .skills__coding-icon>img{
-    max-width: 38px;
+    max-width: 40px;
 }
 .coding__icon-jquery>img{
     max-width: 100px;
 }
 .coding__icon-js>img{
-    width: 44px;
+    width: 55px;
+}
+.coding__icon-js{
+    padding-top:10px;
 }
 .skills__software-list,
 .skills__coding-list{
