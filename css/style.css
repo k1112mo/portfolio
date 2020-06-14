@@ -587,6 +587,7 @@ a{
 }
 .header__logo{
     width: 58px;
+    margin-left: 0px;
 }
 /*-----------------------
       menu
