@@ -47,27 +47,6 @@
 /* --------------
 * works_section    
 ---------------- */
-.illust__1{
-    max-width: 50px;
-}
-.illust__2{
-    max-width: 70px;
-}
-.illust__3{
-    max-width: 60px;
-}
-.illust__4{
-    max-width: 85px;
-}
-.illust__5{
-    max-width: 80px;
-}
-.illust__6{
-    max-width: 60px;
-}
-.illust__7{
-    max-width: 68px;
-}
 .works__section-inner{
     max-width: 800px;
     margin: 0 auto 60px;
@@ -140,6 +119,27 @@
 }
 .works__item-sp{
     max-width:250px;
+}
+.illust__1{
+    max-width: 50px;
+}
+.illust__2{
+    max-width: 70px;
+}
+.illust__3{
+    max-width: 60px;
+}
+.illust__4{
+    max-width: 85px;
+}
+.illust__5{
+    max-width: 80px;
+}
+.illust__6{
+    max-width: 60px;
+}
+.illust__7{
+    max-width: 68px;
 }
 /* --------------
 * wireframe-btn    
@@ -218,7 +218,6 @@
 	transform:translate(-40px,0);
 	transition: .6s;
 }
-
 @media screen and (max-width: 768px){
     .section__wrapper:first-of-type{
         padding-top: 80px;
@@ -273,6 +272,7 @@
         padding-left: 0.9em;
         text-indent: -0.9em;
     }
+
     /* --------------
     *     persona    
     ---------------- */
