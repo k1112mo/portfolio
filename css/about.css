@@ -236,7 +236,7 @@
 .career__text-weight{
     font-weight: 600;
 }
-.line{
+.career__line{
     background-color:rgba(230,210,39,0.2);
     
 }
@@ -429,10 +429,8 @@
     padding-left:15px;
 }
 
-.career__text>span,
-.career__text-last>span{
+.career__line{
     display: inline-block;
-    margin-bottom: 15px;
 }
 .career__last-era{
     color: #333333;
