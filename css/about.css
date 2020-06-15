@@ -430,7 +430,7 @@
 }
 
 .career__line{
-    display: inline-block;
+    display: inline;
 }
 .career__last-era{
     color: #333333;
