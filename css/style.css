@@ -609,15 +609,16 @@ a{
 }
 .nav__item{
 	position: relative;
-    display: block;
-    width: 170px;
+        display: block;
+        width: 170px;
 	height: 60px;
 	line-height: 60px;
 	text-decoration: none;
 	color: #333333;
 	font-family: 'Josefin Sans', sans-serif;
-    border-bottom: solid 1px #c8c7c7;
-    margin: 0 auto ;
+        border-bottom: solid 1px #c8c7c7;
+        margin: 0 auto ;
+	letter-spacing:2.2px;
 }
 .nav__item::before{
 	content: "";
@@ -633,7 +634,7 @@ a{
 	border-right: solid 2px #333333;
 }
 .nav__list{
-    display: block;
+       display: block;
 }
 /*-----------------------
     menuButton
