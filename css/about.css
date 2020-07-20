@@ -369,7 +369,7 @@
         display:inline-block;
     }
     .about__img{
-        max-width:200px;
+        max-width:335px;
         margin: 0 auto 50px;
     }
 /* --------------
@@ -500,4 +500,6 @@
     background-size: 70px;
     background-position: top 50px left 10px;
 }
+
+
 }
