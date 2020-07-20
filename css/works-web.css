@@ -38,6 +38,14 @@
     margin-bottom: 0;
 }
 /* --------------
+*   text-link
+---------------- */
+.text-link>a{
+    text-decoration: underline;
+    text-decoration-color:#4b3ac6;
+    color:#4b3ac6;
+}
+/* --------------
 *     moc
 ---------------- */
 .works__moc{
@@ -120,6 +128,17 @@
 .works__item-sp{
     max-width:250px;
 }
+.illust__wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.illust__wrapper>div{
+    margin-right: 10px;
+}
+.illust__wrapper>div:last-of-type{
+    margin-right: 0;
+}
 .illust__1{
     max-width: 50px;
 }
@@ -140,6 +159,27 @@
 }
 .illust__7{
     max-width: 68px;
+}
+.illust__753{
+    max-width: 68px;
+}
+.illust__omiyamairi{
+    max-width: 112px;
+}
+.illust__family{
+    max-width: 87px;
+}
+.illust__wedding{
+    max-width: 102px;
+}
+.illust__lovers{
+    max-width: 102px;
+}
+.illust__publisity{
+    max-width: 69px;
+}
+.mt{
+    margin-top: 10px;
 }
 /* --------------
 * wireframe-btn    
@@ -271,6 +311,11 @@
     .persona__text-item{
         padding-left: 0.9em;
         text-indent: -0.9em;
+    }
+    .illust__wedding,
+    .illust__lovers,
+    .illust__publisity{
+        margin-top: 10px;
     }
 
     /* --------------
