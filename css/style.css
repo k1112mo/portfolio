@@ -296,6 +296,9 @@ a{
     width:calc(( 100% - 50px*2 ) / 3 );
     position:relative;
 }
+.works img{
+    transition: 0.3s ease-in-out;   
+}
 .works:hover img{
     opacity:0.5;
     -moz-opacity: 0.5;
@@ -714,7 +717,7 @@ a{
 ---------------- */
 .about__prof-img{
     position:static;
-    width: 335px;
+    width:335px;
     margin:0 auto 60px;
 }
 .about__prof-wrapper{
