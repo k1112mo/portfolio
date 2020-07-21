@@ -372,8 +372,11 @@
         display:inline-block;
     }
     .about__img{
-        max-width:335px;
+        max-width:330px;
         margin: 0 auto 50px;
+    }
+    .about__img>img{
+        width:330px;
     }
 /* --------------
 *     skills
