@@ -18,19 +18,6 @@ $(function() {
         }, 500);
         return false;
     });
-    // //下からふわっとフェードイン
-    // $(window).scroll(function (){
-	// 	$('.fadein').each(function(){
-	// 		var elemPos = $(this).offset().top;
-	// 		var scroll = $(window).scrollTop();
-	// 		var windowHeight = $(window).height();
-	// 		if (scroll > elemPos - windowHeight + 100){
-    //             $(this).addClass('scrollin');
-    //         }else if(scroll < elemPos){
-    //             $(this).removeClass('scrollin');
-    //         }
-	// 	});
-    // });
     // ScrollReveal
     ScrollReveal().reveal('.scroll-up',{
     origin: 'bottom',
